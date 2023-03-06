@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/refacback"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="127dp"
+        android:layout_height="59dp"
+        android:gravity="top"
+        android:lineHeight="36dp"
+        android:shadowColor="#40000000"
+        android:shadowDx="0"
+        android:shadowDy="4"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="140dp"
+        android:shadowRadius="4"
+        android:text="Login"
+        android:textColor="#606060"
+        android:textSize="40sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="299dp"
+        android:layout_height="53dp"
+        android:foregroundGravity="center_horizontal"
+        android:background="@drawable/rectangle_1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp"
+        android:layout_marginTop="210dp"
+        android:layout_gravity="center_horizontal"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="239dp"
+        android:layout_height="53dp"
+        android:foregroundGravity="center_horizontal"
+        tools:ignore="MissingConstraints"
+        android:hint="Number"
+        android:maxLength="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="44dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_horizontal"
+        tools:layout_editor_absoluteY="250dp"
+        android:background="@android:color/transparent" >
+    </EditText>
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="299dp"
+        android:layout_height="53dp"
+        android:foregroundGravity="center_horizontal"
+        android:background="@drawable/rectangle_1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp"
+        android:layout_marginTop="280dp"
+        android:layout_gravity="center_horizontal"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="239dp"
+        android:layout_height="53dp"
+        android:foregroundGravity="center_horizontal"
+        tools:ignore="MissingConstraints"
+        android:hint="password"
+        tools:layout_editor_absoluteX="44dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="280dp"
+        android:layout_gravity="center_horizontal"
+        tools:layout_editor_absoluteY="339dp"
+        android:background="@android:color/transparent" >
+    </EditText>
+
+    <View
+        android:id="@+id/rectangle_7"
+        android:layout_width="275dp"
+        android:layout_height="39dp"
+        android:background="@drawable/rectangle_7"
+        android:elevation="4dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="360dp"
+        android:layout_gravity="center_horizontal"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="275dp"
+        android:layout_height="39dp"
+        android:elevation="4dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="360dp"
+        android:layout_gravity="center_horizontal"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="434dp"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="75dp"
+        android:layout_height="31dp"
+        android:fontFamily="@font/akkurat_mono"
+        android:gravity="center_vertical"
+        android:shadowColor="#40000000"
+        android:shadowDx="0"
+        android:shadowDy="4"
+        android:shadowRadius="4"
+        android:text="login"
+        android:layout_marginTop="360dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#E40B0B"
+        android:textSize="21sp"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="436dp" />
+
+    <TextView
+        android:id="@+id/forgot_your"
+        android:layout_width="138dp"
+        android:layout_height="15dp"
+        android:gravity="top"
+        android:text="@string/forgot_your"
+        android:textColor="#B5000000"
+        android:textSize="12sp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="440dp"
+        android:layout_gravity="center_horizontal"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <View
+            android:id="@+id/username"
+            android:layout_width="109.02dp"
+            android:layout_height="1dp"
+            android:background="@drawable/line_3"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="500dp"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="524dp" />
+
+
+        <TextView
+            android:id="@+id/connect_wit"
+            android:layout_width="77dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="499dp"
+            android:gravity="top"
+            android:text="@string/connect_wit"
+            android:textAppearance="@style/connect_wit"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="516dp" />
+
+        <View
+            android:id="@+id/line_4"
+            android:layout_width="109.02dp"
+            android:layout_height="1dp"
+            android:background="@drawable/line_3"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="230dp"
+            tools:layout_editor_absoluteX="240dp"
+            tools:layout_editor_absoluteY="524dp" />
+        <View
+            android:id="@+id/rectangle_9"
+            android:layout_width="109dp"
+            android:layout_height="32dp"
+            android:background="@drawable/rectangle_9"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="550dp"
+            android:layout_marginLeft="20dp"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="547dp" />
+
+        <!-- <View
+            android:id="@+id/facebook_lo"
+            android:layout_width="25dp"
+            android:layout_height="25.05dp"
+            android:background="@drawable/facebook_lo"
+            tools:ignore="MissingConstraints" />-->
+
+        <TextView
+            android:id="@+id/facebook"
+            android:layout_width="58dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="555dp"
+            android:gravity="top"
+            android:text="@string/facebook"
+            android:textAppearance="@style/facebook"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="554dp" />
+
+        <View
+            android:id="@+id/rectangle_5"
+            android:layout_width="109dp"
+            android:layout_height="32dp"
+            android:background="@drawable/rectangle_5"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="550dp"
+            android:layout_marginLeft="225dp"
+            tools:layout_editor_absoluteX="240dp"
+            tools:layout_editor_absoluteY="547dp" />
+        <TextView
+            android:id="@+id/twitter"
+            android:layout_width="43dp"
+            android:layout_height="15dp"
+            android:gravity="top"
+            android:text="@string/twitter"
+            android:textAppearance="@style/twitter"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="555dp"
+            android:layout_marginLeft="255dp"
+            tools:layout_editor_absoluteX="269dp"
+            tools:layout_editor_absoluteY="554dp" />
+
+        <TextView
+            android:id="@+id/dont_have_a"
+            android:layout_width="120dp"
+            android:layout_height="15dp"
+            android:gravity="top"
+            android:text="@string/dont_have_a"
+            android:textAppearance="@style/dont_have_a"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="595dp"
+            android:layout_marginLeft="100dp"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="608dp" />
+
+        <TextView
+            android:id="@+id/sign_up"
+            android:layout_width="45dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="595dp"
+            android:gravity="top"
+            android:text="@string/sign_up"
+            android:textAppearance="@style/sign_up"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="258dp"
+            tools:layout_editor_absoluteY="608dp" />
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

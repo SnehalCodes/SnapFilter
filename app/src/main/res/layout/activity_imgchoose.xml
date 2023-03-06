@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/refacback"
+    android:orientation="vertical"
+    tools:context=".ImgchooseActivity">
+
+    <TextView
+        android:id="@+id/txtFilterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         "
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/black"
+        android:textSize="45sp" />
+    <ImageView
+        android:id="@+id/imgDisplay"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_height="300dp"
+        android:src="@drawable/profilerimg"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnChooseImg"
+            android:layout_width="171dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="140dp"
+            android:text="choose photo"
+            android:background="#37CABC"
+            android:layout_marginLeft="30dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <ImageButton
+            android:id="@+id/btnNext"
+            android:layout_width="70dp"
+            android:src="@drawable/ic_baseline_arrow_forward_24"
+            android:layout_height="60dp"
+            android:background="@drawable/round_background"
+            android:layout_gravity="center"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="140dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

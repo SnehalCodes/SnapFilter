@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashbg"
+    tools:context=".splash_activity">
+
+    <ImageView
+        android:layout_width="258px"
+        android:layout_height="251px"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="316dp"
+        android:scaleType="fitXY"
+        android:foregroundGravity="center"
+        android:src="@drawable/splash_screen_face"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="33dp"
+        android:fontFamily="@font/akkurat_mono"
+        android:text="Cartoonistic: Toon Face"
+        android:textColor="#252525"
+        android:textSize="13dp"
+        android:lineHeight="30sp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="100dp"
+        android:textAlignment="textStart"
+        app:flow_verticalAlign="top"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="422dp" />
+</RelativeLayout>
